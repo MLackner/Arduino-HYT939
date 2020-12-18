@@ -12,7 +12,7 @@ Compile via
 ```
 cargo build --release
 ```
-and flath to the device
+and flash to the device
 ```
 avrdude -patmega328p -carduino -P <your-usb-port> -b115200 -D -Uflash:w:target/avr-atmega328p/release/arduino_hyt939.elf
 ```
